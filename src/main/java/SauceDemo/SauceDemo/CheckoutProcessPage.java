@@ -23,6 +23,7 @@ public class CheckoutProcessPage {
 		driver.findElement(By.id("postal-code")).sendKeys(zip);
 		driver.findElement(By.xpath("//input[@value='CONTINUE']")).click();
 		driver.findElement(By.xpath("//a[normalize-space()='FINISH']")).click();
+		
 	}
 	
 	public String ConfirmationMessage() {
