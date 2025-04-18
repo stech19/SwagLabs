@@ -35,7 +35,7 @@ public class ProductFilterTest {
 	@Test
 	public void ProductFilter() throws IOException
 	{
-		// 
+		
 		test = extent.createTest("Verify that product filtering (Low to High Price)");
 		LogintoApplication login = new LogintoApplication(driver);
 		ProductFilterPage filter = new ProductFilterPage(driver);
